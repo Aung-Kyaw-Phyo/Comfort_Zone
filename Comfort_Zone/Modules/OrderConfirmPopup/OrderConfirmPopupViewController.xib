@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OrderConfirmPopupViewController" customModule="Comfort_Zone" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Dp-14-Wae" customClass="CustomView" customModule="Comfort_Zone" customModuleProvider="target">
+                    <rect key="frame" x="16" y="159" width="361" height="519"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="EW4-ve-uqh">
+                            <rect key="frame" x="40" y="40" width="281" height="439"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YOUR ORDER CREATE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SNU-3e-54i">
+                                    <rect key="frame" x="0.0" y="0.0" width="281" height="17.666666666666668"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="checkmark" translatesAutoresizingMaskIntoConstraints="NO" id="zWX-Mb-ZYJ">
+                                    <rect key="frame" x="0.0" y="37.666666666666671" width="281" height="217.66666666666663"/>
+                                </imageView>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="7gV-BV-Xvv">
+                                    <rect key="frame" x="0.0" y="275.33333333333331" width="281" height="37"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thanks for Ordering." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LS5-K0-yLB">
+                                            <rect key="frame" x="0.0" y="0.0" width="281" height="16"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rating for your order." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ATc-uU-8Yp">
+                                            <rect key="frame" x="0.0" y="21" width="281" height="16"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="lcX-c3-CP3">
+                                    <rect key="frame" x="0.0" y="332.33333333333337" width="281" height="41.666666666666686"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="wNu-3x-fi5">
+                                            <rect key="frame" x="0.0" y="0.0" width="56.333333333333336" height="41.666666666666664"/>
+                                        </imageView>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="AdS-yB-dUD">
+                                            <rect key="frame" x="56.333333333333329" y="0.0" width="56" height="41.666666666666664"/>
+                                        </imageView>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="LvD-Ia-ZqS">
+                                            <rect key="frame" x="112.33333333333333" y="0.0" width="56.333333333333329" height="41.666666666666664"/>
+                                        </imageView>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="of4-JZ-lFo">
+                                            <rect key="frame" x="168.66666666666666" y="0.0" width="56" height="41.666666666666664"/>
+                                        </imageView>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="Gjj-ky-Wxc">
+                                            <rect key="frame" x="224.66666666666669" y="0.0" width="56.333333333333314" height="41.666666666666664"/>
+                                        </imageView>
+                                    </subviews>
+                                </stackView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fra-Ge-8qc">
+                                    <rect key="frame" x="0.0" y="394" width="281" height="45"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="45" id="UgW-LV-g6g"/>
+                                    </constraints>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="filled" title="Submit">
+                                        <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="18"/>
+                                        <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="baseBackgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </buttonConfiguration>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="10"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </button>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="EW4-ve-uqh" firstAttribute="leading" secondItem="2Dp-14-Wae" secondAttribute="leading" constant="40" id="03e-DS-06c"/>
+                        <constraint firstItem="lcX-c3-CP3" firstAttribute="height" secondItem="2Dp-14-Wae" secondAttribute="height" multiplier="0.08" id="YQE-o3-Q92"/>
+                        <constraint firstItem="EW4-ve-uqh" firstAttribute="top" secondItem="2Dp-14-Wae" secondAttribute="top" constant="40" id="Z8b-iM-Aru"/>
+                        <constraint firstAttribute="trailing" secondItem="EW4-ve-uqh" secondAttribute="trailing" constant="40" id="edp-wm-8w5"/>
+                        <constraint firstItem="7gV-BV-Xvv" firstAttribute="height" secondItem="2Dp-14-Wae" secondAttribute="height" multiplier="0.0715631" id="gjL-42-xTL"/>
+                        <constraint firstAttribute="bottom" secondItem="EW4-ve-uqh" secondAttribute="bottom" constant="40" id="hE1-lf-BKC"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="tertiaryLabelColor"/>
+            <constraints>
+                <constraint firstItem="2Dp-14-Wae" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="100" id="1me-Pz-RTm"/>
+                <constraint firstItem="2Dp-14-Wae" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.609155" id="G8y-q3-sAG"/>
+                <constraint firstItem="2Dp-14-Wae" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="XVB-nW-5rQ"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="2Dp-14-Wae" secondAttribute="bottom" constant="140" id="ZY2-F7-4Bc"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="2Dp-14-Wae" secondAttribute="trailing" constant="16" id="oZj-6C-5Xd"/>
+            </constraints>
+            <point key="canvasLocation" x="64.885496183206101" y="-11.267605633802818"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="checkmark" width="225" height="225"/>
+        <image name="star" width="182" height="182"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tertiaryLabelColor">
+            <color red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29803921570000003" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
